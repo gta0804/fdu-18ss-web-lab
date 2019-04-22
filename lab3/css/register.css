@@ -2,7 +2,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     background-color: #1b2838;
-    color: #acb2b8
+    color: #acb2b8;
+    text-align: left;
 }
 
 header {

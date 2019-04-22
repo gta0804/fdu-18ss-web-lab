@@ -4,7 +4,9 @@ h1 { font-size: 3em; font-weight: bold; margin-top: 0;}
 div#topHeaderRow {
    font-size: 0.9em;
 }
-
+h2,h3,h4{
+    font-weight:bold;
+}
 .price { 
 
 }
@@ -23,7 +25,35 @@ footer {
 
 .tight-form-group {  }
 
-#copyrightRow { 
-    background-color: #3A3A3A; 
-
+#copyrightRow {
+    background-color: #3A3A3A;
+}
+.container-fluid{
+    margin-left:30px;
+}
+.introduction{
+    margin-top:20px;
+}
+.description{
+    margin-left:50px;
+}
+.a,.b{
+    margin-left:5px;
+    margin-top:10px;
+}
+.images{
+    margin-top:10px;
+}
+.panel-default{
+    text-align:center;
+}
+.wordsandbuttons{
+    margin-bottom:10px;
+}
+.text{
+    text-align:center;
+}
+.buttons{
+    text-align:center;
+    margin-bottom:10px;
 }
