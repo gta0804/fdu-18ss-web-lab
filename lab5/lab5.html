@@ -117,7 +117,7 @@
          <h2>View Cart</h2>
       </div>
          
-      <table class="table table-condensed">
+      <table class="table table-condensed" id="table">
          <tr>
             <th>Image</th>
             <th>Product</th>
@@ -160,19 +160,19 @@
 
          <tr class="success strong">
             <td colspan="4" class="moveRight">Subtotal</td>
-            <td >$1700</td>
+            <td id="subtotal">$1700</td>
          </tr>
          <tr class="active strong">
             <td colspan="4" class="moveRight">Tax</td>
-            <td>$170</td>
+            <td id="tax">$170</td>
          </tr>  
          <tr class="strong">
             <td colspan="4" class="moveRight">Shipping</td>
-            <td>$100</td>
+            <td id="shipping">$100</td>
          </tr> 
          <tr class="warning strong text-danger">
             <td colspan="4" class="moveRight">Grand Total</td>
-            <td>$1970</td>
+            <td id="grandtotal">$1970</td>
          </tr>    
          <tr >
             <td colspan="4" class="moveRight"><button type="button" class="btn btn-primary" >Continue Shopping</button></td>
@@ -265,6 +265,61 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="bootstrap3_defaultTheme/assets/js/jquery.js"></script>
-    <script src="bootstrap3_defaultTheme/dist/js/bootstrap.min.js"></script>    
+    <script src="bootstrap3_defaultTheme/dist/js/bootstrap.min.js"></script>
+<script>
+    window.onload=function(){
+        var tableElement=document.getElementById("table");
+        var amount1=1000;
+        var amount2=700;
+        for(i =0;i<2;i++){
+            var row=tableElement.insertRow(i+1);
+            insertRow(row,i);
+        }
+        changeTotal();
+        function insertRow(row,i){
+            var pictureTag=row.insertCell(0);
+            var productTag=row.insertCell(1);
+            var quantityTag = row.insertCell(2);
+            var priceTag =row.insertCell(3);
+            var AmountTag = row.insertCell(4);
+            if(i==0){
+                pictureTag.innerHTML='<img class="img-thumbnail" src="images/art/tiny/113010.jpg" alt="...">';
+                productTag.innerHTML= "Artist Holding a Thistle";
+                priceTag.innerHTML="$500";
+                quantityTag.innerHTML="2";
+                AmountTag.innerHTML="$1000";
+            }
+            else{
+                pictureTag.innerHTML='<img class="img-thumbnail" src="images/art/tiny/116010.jpg" alt="...">';
+                productTag.innerHTML="Self-portrait in a Straw Hat";
+                priceTag.innerHTML="$700";
+                quantityTag.innerHTML="1";
+                AmountTag.innerHTML="$700";
+            }
+        }
+        function changeTotal(){
+            var total = amount1+amount2;
+            var tax = total*0.1;
+            var shipping =getShipping(shipping,total);
+            var grandTotal =total+tax+shipping;
+            document.getElementById("subtotal").innerHTML="$"+total;
+            document.getElementById("tax").innerHTML="$"+tax;
+            document.getElementById("shipping").innerHTML="$"+shipping;
+            document.getElementById("grandtotal").innerHTML="$"+grandTotal;
+        }
+
+        function getShipping(shipping,total){
+            if(total>=1000){
+                shipping = 0;
+                return shipping;
+            }
+            else{
+                shipping = 40;
+                return shipping;
+            }
+        }
+
+    }
+</script>
   </body>
 </html>
