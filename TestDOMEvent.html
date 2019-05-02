@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TestDOMEvent</title>
+</head>
+<body>
+<button value="click me" id="mybtn">Click me</button>
+<script>
+    window.onload=function(){
+        document.getElementById("mybtn").focus();
+    };8
+    var btn=document.getElementById("mybtn");
+    btn.onclick=function(event){
+        alert("a Clicked");
+        alert(event.eventPhase);
+    }
+    document.body.onclick=function(event){
+        alert("body Clicked");
+        alert(event.eventPhase);
+    }
+</script>
+</body>
+</html>
