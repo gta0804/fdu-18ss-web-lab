@@ -1,7 +1,226 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="143662ed-1c62-46f3-afde-def2f4a100e7" name="Default Changelist" comment="" />
+    <list default="true" id="143662ed-1c62-46f3-afde-def2f4a100e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../lab11/Lab11.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/Lab11.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/css/captions.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/css/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/css/customized.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/functions.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/header.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/8710247776.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/8710289254.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/8710320515.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/canada1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/canada2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/canada3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/central-park.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/icon_comment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/icon_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/icon_download.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/icon_mail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/icon_map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/icon_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/italy1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/italy2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/italy3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/italy4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/italy5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/italy6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/large-central-park.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/map.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/medium/21587937686.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/medium/22182041615.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/medium/5855729828.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/medium/5856697109.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/medium/6114850721.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/medium/6114867983.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/medium/6114907897.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/medium/6114960821.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/medium/6592914823.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/medium/6596048341.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/medium/8710247776.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/medium/8710513053.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/medium/8711645510.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/medium/9495574327.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/medium/9498358806.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/medium/9504609042.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/medium/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/post-background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/related-large1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/related-large2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/related-large3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/related-square1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/related-square2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/related-square3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/spain1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/spain2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/15108090436.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/15127898611.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/15128113051.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/15130505782.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/15130505782_20180530001755.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/19482907064.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/19919266559.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/20010830173.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/20987595084.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/20991329924.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/21584214296.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/21587937686.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/21967853928.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/22165883251.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/222222.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/222223.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/23959634814.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/23959679874.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/24292302290.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/24561652286.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/24587813955.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/24587816715.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/28758575302.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/28787532651.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/28863181765.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/29053823052.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/29053823782.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/29126221216.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/29126224066.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/29126226696.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/29949948210.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/29949949330.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/29949949990.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/30211625336.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/30211628146.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/30211628146_20180530001757.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/30211629456.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/5855174537.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/5855191275.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/5855209453.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/5855213165.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/5855221959.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/5855729828.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/5855735700.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/5855752464.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/5855774224.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/5856616479.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/5856654945.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/5856658791.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/5856697109.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/5857298322.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/5857398054.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/6114850721.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/6114859969.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/6114867983.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/6114881215.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/6114904363.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/6114907897.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/6114960821.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/6115548152.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/6115603234.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/6119127716.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/6119130918.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/6119143988.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/6592294487.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/6592317633.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/6592317633_20180530001758.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/6592902825.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/6592914823.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/6596046267.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/6596048341.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/8152016381.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/8152020963.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/8152043422.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/8152045688.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/8152045872.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/8152048712.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/8645912379.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/8646991554.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/8710247776.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/8710289254.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/8710320515.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/8710513053.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/8711623884.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/8711645510.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/8730408907.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/8731523536.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/8731526170.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/9493997865.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/9494282329.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/9494464567.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/9494470337.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/9494472443.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/9494475161.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/9495571869.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/9495574327.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/9496560520.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/9496560520_20180530001800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/9496787858.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/9496792166.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/9496799098.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/9498358806.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/9498368556.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/9498381010.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/9498386718.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/9498388516.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/9502740177.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/9502741759.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/9504445110.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/9504448540.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/9504449928.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/9504451722.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/9504606628.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/9504609042.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/9504613978.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/9505536014.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/9505893300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square-medium/9505897492.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square/21587937686.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square/22182041615.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square/5855729828.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square/5856697109.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square/6114850721.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square/6114867983.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square/6114907897.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square/6114960821.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square/6592914823.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square/6596048341.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square/8710247776.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square/8710320515.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square/8710513053.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square/8711645510.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square/9495574327.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square/9498358806.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square/9504609042.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/square/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/star-gold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/star-outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/star-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/us1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/images/us2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/js/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/left.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/sql/travel-small.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab11/travel-data.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/lab1 text.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/lab1 作业要求.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/lab1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/user_icon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/lab2 作业要求.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,7 +228,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lab09.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -25,7 +244,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/travel-data.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="754">
+            <state relative-caret-position="1368">
               <caret line="57" column="14" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="14" />
             </state>
           </provider>
@@ -34,8 +253,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lab09.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="661">
-              <caret line="82" column="129" selection-start-line="82" selection-start-column="129" selection-end-line="82" selection-end-column="129" />
+            <state relative-caret-position="744">
+              <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
             </state>
           </provider>
         </entry>
@@ -43,7 +262,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lab09.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="744">
+            <state relative-caret-position="6816">
               <caret line="284" selection-start-line="284" selection-end-line="284" />
             </state>
           </provider>
@@ -52,13 +271,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/captions.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="744">
+            <state relative-caret-position="1584">
               <caret line="66" selection-start-line="66" selection-end-line="66" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -75,6 +297,7 @@
     <option name="width" value="1522" />
     <option name="height" value="974" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -100,6 +323,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -130,24 +354,20 @@
       <option name="presentableId" value="Default" />
       <updated>1558751468590</updated>
       <workItem from="1558751469729" duration="5241000" />
+      <workItem from="1559737316418" duration="11000" />
+      <workItem from="1559737864988" duration="55000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5241000" />
+    <option name="totallyTimeSpent" value="5307000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24948454" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2563574" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -155,23 +375,21 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/captions.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lab09.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -182,24 +400,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/travel-data.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="57" column="14" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Lab09.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
+        <state relative-caret-position="6816">
           <caret line="284" selection-start-line="284" selection-end-line="284" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/travel-data.inc.php">
+    <entry file="file://$PROJECT_DIR$/css/captions.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="57" column="14" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="14" />
+        <state relative-caret-position="1584">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab09.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="82" column="129" selection-start-line="82" selection-start-column="129" selection-end-line="82" selection-end-column="129" />
+        <state relative-caret-position="744">
+          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
         </state>
       </provider>
     </entry>
