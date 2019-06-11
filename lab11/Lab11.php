@@ -40,7 +40,7 @@
             <form action="Lab11.php" method="post" class="form-horizontal">
               <div class="form-inline">
               <select name="continent" class="form-control">
-                <option value="0">Select Continent</option>
+                <option value="0" >Select Continent</option>
                 <?php
                 require_once("login.php");
                 $conn= new mysqli($hn,$un,$pw,$db);
@@ -61,7 +61,7 @@
               </select>     
               
               <select name="country" class="form-control">
-                <option value="0">Select Country</option>
+                <option value="0" selected>Select Country</option>
                 <?php 
                 //Fill this place
 
@@ -93,9 +93,9 @@
 		<ul class="caption-style-2">
             <?php
             $conn= new mysqli($hn,$un,$pw,$db);
-            $query="SELECT * FROM imagedetails";
-            $continent=get_post($conn,"continent");
-            $country=get_post($conn,"country");
+           // $query=findByContinentsAndCountries($conn);
+            @$continent=get_post($conn,"continent");
+            @$country=get_post($conn,"country");
             if($continent=="0"&&$country=="0"){
                 $query="SELECT * FROM imagedetails";
             }
@@ -118,8 +118,8 @@
                 $imageDescription=$row["Description"];
                 echo '<li>';
                 echo "<a href='details.php?id=$imageID' class='img-responsive'>";
-                echo "<img src='images/square-medium/$imagePath' alt='$imageDescription'>";
-                echo "<div class='caption'>";
+                echo "<img src='images/square-medium/$imagePath' alt='$imageDescription' style='height:225px; width:225px;'>";
+                echo "<div class='caption' >";
                 echo "<div class='blur'></div>";
                 echo "<div class='caption-text'>";
                 echo "<p>$imageDescription</p>";
@@ -147,12 +147,32 @@
             </li>        
             */
 
-            function findByContinentsAndCountries($query,$conn){
-
+            function findByContinentsAndCountries($conn){
+                $continent=get_post($conn,"continent");
+                $country=get_post($conn,"country");
+                if(!isset($_POST['continent'])&&!isset($_POST['country'])){
+                    $query1 ="SELECT * FROM imagedetails";
+                }
+                else if(!isset($_POST['continent'])){
+                    $query1 ="SELECT * FROM imagedetails WHERE CountryCodeISO='$country'";
+                }
+                else if(!isset($_POST['country'])){
+                    $query1 ="SELECT * FROM imagedetails WHERE ContinentCode='$continent'";
+                }
+                else{
+                    $query1="SELECT * FROM imagedetails WHERE ContinentCode='$continent' AND CountryCodeISO='$country'";
+                }
+                return $query1;
             }
 
             function get_post($conn,$var){
-                return $conn->real_escape_string($_POST[$var]);
+               /* if(isset($POST_[$var]))
+                    return $conn->real_escape_string($_POST[$var]);
+                else
+                    return '0';*/
+                return !empty($conn->real_escape_string($_POST[$var])) ? $conn->real_escape_string($_POST[$var]) : '0';
+
+
             }
             ?>
        </ul>       
